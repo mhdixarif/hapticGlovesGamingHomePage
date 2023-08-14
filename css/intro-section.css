@@ -1,13 +1,10 @@
 .intro-section-header {
     margin: 0 auto;
     margin-bottom: 2em;
-    max-width: 30ch;
+    max-width: 35ch;
 }
 
 .intro-section-title {
-    font-size: clamp(1.4rem, 2vw, 1.5rem);
-    font-weight: 700;
-    letter-spacing: .35rem;
     margin-bottom: .5em;
 }
 
@@ -43,10 +40,6 @@
     }
 }
 
-
-.intro-section-copy-cta-wrapper {
-    //max-width: none;
-}
 
 .intro-section-copy {
     font-size: .95rem;
