@@ -101,7 +101,17 @@
     height: 6ch;
 }
 
-
+.contact-form input[type="text"],
+.contact-form input[type="phone"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+}
 
 .contact-section .form-row {
     display: flex;
