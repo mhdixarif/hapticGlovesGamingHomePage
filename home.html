@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/download.css">
     <link rel="stylesheet" href="css/testimonies.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <script src="https://kit.fontawesome.com/d0db434057.js" crossorigin="anonymous"></script>
     <title>Document</title>
@@ -57,6 +58,7 @@
     <div class="wrapper">
         <section class="hero-section">
             <img class="hero-img" src="ressources/images/hero.svg" alt="">
+
             <div class="hero-copy-wrapper">
                 <p class="hero-copy">Plongez dans une expérience de jeu réaliste et immersive</p>
                 <a href="#" class="hero-copy-scroll-down-btn"><i class="fa-solid fa-chevron-down"></i></a>
@@ -65,7 +67,7 @@
         </section>
 
         <section class="features-section">
-            <h1 class="section-title features-section-title section-title">Features</h1>
+            <h1 class="section-title features-section-title section-title">Fonctionnalités</h1>
 
             <div class="features-cards">
                 <div class="feature-card">
@@ -372,73 +374,130 @@
 
 
         <section class="contact-section">
-            <form action="" class="contact-form">
-                <div class="form-row flex">
-                    <div class="form-group col6">
-                        <label for="first-name">Prénom</label>
-                        <input type="text" id="first-name">
+            <h1 class="section-title">contactez-nous</h1>
+
+            <div class="contact-section-body">
+                <form action="" class="contact-form">
+                    <div class="form-row flex">
+                        <div class="form-group col6">
+                            <label for="first-name">Prénom</label>
+                            <input type="text" id="first-name">
+                        </div>
+                        <div class="form-group col6">
+                            <label for="last-name">Nom</label>
+                            <input type="text" id="last-name">
+                        </div>
                     </div>
-                    <div class="form-group col6">
-                        <label for="last-name">Nom</label>
-                        <input type="text" id="last-name">
+    
+                    <div class="form-row">
+                        <div class="form-group w-100">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email">
+                        </div>
                     </div>
+    
+                    <div class="form-row">
+                        <div class="form-group w-100">
+                            <label for="tel">Tél</label>
+                            <input type="phone" id="tel">
+                        </div>
+                    </div>
+    
+                    <div class="form-row">
+                        <div class="form-group w-100">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+    
+                    <input type="submit" id="submit" value="Envoyer" class="w-100">
+    
+                </form>
+    
+                <div class="contact-infos">
+                    <img src="ressources/images/intellcap.svg" alt="" class="our-logo">
+                    
+                    <section class="call-us">
+                        <h6 class="contact-infos-section-title">Appellez-nous:</h6>
+                        <div class="numbers">
+                            <p class="our-number">+212   772664071</p>
+                            <p class="our-number">+212   753511340</p>
+                        </div>
+                    </section>
+    
+                    <section class="address">
+                        <div class="contact-infos-section-title">Adresse</div>
+                        <p class="our-address">
+                            3, Rue Ouhoud, Agdal Appartement 7. 10090 Rabat, Maroc.
+                        </p>
+                        <img src="ressources/images/address.svg" alt="" class="our-address-map-img">
+                    </section>
+    
+                    <section class="social-media">
+                        <img src="ressources/images/social-media/in.svg" alt="" class="social-media-icon">
+                        <img src="ressources/images/social-media/twitter.svg" alt="" class="social-media-icon">
+                        <img src="ressources/images/social-media/facebook.svg" alt="" class="social-media-icon">
+                        <img src="ressources/images/social-media/instagram.svg" alt="" class="social-media-icon">
+                    </section>
                 </div>
-
-                <div class="form-row">
-                    <div class="form-group w-100">
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email">
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group w-100">
-                        <label for="tel">Tél</label>
-                        <input type="phone" id="tel">
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group w-100">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    </div>
-                </div>
-
-                <input type="submit" id="submit" value="Envoyer" class="w-100">
-
-            </form>
-
-            <div class="contact-infos">
-                <img src="ressources/images/intellcap.svg" alt="" class="our-logo">
-                
-                <section class="call-us">
-                    <h6 class="contact-infos-section-title">Appellez-nous:</h6>
-                    <div class="numbers">
-                        <p class="our-number">+212   772664071</p>
-                        <p class="our-number">+212   753511340</p>
-                    </div>
-                </section>
-
-                <section class="address">
-                    <div class="contact-infos-section-title">Adresse</div>
-                    <p class="our-address">
-                        3, Rue Ouhoud, Agdal Appartement 7. 10090 Rabat, Maroc.
-                    </p>
-                    <img src="ressources/images/address.svg" alt="" class="our-address-map-img">
-                </section>
-
-                <section class="social-media">
-                    <img src="ressources/images/social-media/in.svg" alt="" class="social-media-icon">
-                    <img src="ressources/images/social-media/twitter.svg" alt="" class="social-media-icon">
-                    <img src="ressources/images/social-media/facebook.svg" alt="" class="social-media-icon">
-                    <img src="ressources/images/social-media/instagram.svg" alt="" class="social-media-icon">
-                </section>
             </div>
+
         </section>
             
-        
     </div>
+
+    <footer>
+        <div class="footer-top">
+            <img src="ressources/images/logo.svg" alt="" class="footer-top-logo">
+
+            <div class="footer-top-subscribe">
+                <a href="#" class="footer-top-subscribe-btn">S'inscrire</a>
+                <input type="email" class="footer-top-subscribe-input">
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-links-wrapper">
+                <div class="footer-links-group">
+                    <h1 class="footer-links-group-title">Product</h1>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Update</a>
+                        <a href="#" class="footer-link">Security</a>
+                        <a href="#" class="footer-link">Chrome extensions</a>
+                    </div>
+                </div>
+
+                <div class="footer-links-group">
+                    <h1 class="footer-links-group-title">Company</h1>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Update</a>
+                        <a href="#" class="footer-link">Security</a>
+                        <a href="#" class="footer-link">Chrome extensions</a>
+                    </div>
+                </div>
+
+                <div class="footer-links-group">
+                    <h1 class="footer-links-group-title">Industries</h1>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Update</a>
+                        <a href="#" class="footer-link">Security</a>
+                        <a href="#" class="footer-link">Chrome extensions</a>
+                    </div>
+                </div>
+
+                <div class="footer-links-group">
+                    <h1 class="footer-links-group-title">Help</h1>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Update</a>
+                        <a href="#" class="footer-link">Security</a>
+                        <a href="#" class="footer-link">Chrome extensions</a>
+                    </div>
+                </div>
+            </div>
+
+            <img src="ressources/images/intellcap.svg" alt="" class="footer-company-logo">
+        </div>
+    </footer>
 
     <script src="heading.js"></script>
 
