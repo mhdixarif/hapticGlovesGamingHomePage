@@ -1,9 +1,9 @@
-.contact-section form {
+.contact-section-body form {
     font-size: 1.1rem;
     margin-bottom: 4em;
 }
 
-.contact-section {
+.contact-section-body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -61,19 +61,22 @@
     font-size: 2rem;
 }
 
+.our-address-map-img {
+    width: 100%;
+}
 
 @media(min-width: 1142px) {
-    .contact-section {
+    .contact-section-body {
         flex-direction: row;
         justify-content: space-between;
         align-items: stretch;
     }
 
-    .contact-section form {
+    .contact-section-body form {
         margin-bottom: 0;
     }
 
-    .contact-section form {
+    .contact-section-body form {
         width: 50%;
     }
 
@@ -94,7 +97,7 @@
 
 
 
-.contact-section input {
+.contact-section-body input {
     background: none;
     outline: none;
     border: 1px solid rgba(255, 255, 255, 0.726);
@@ -103,24 +106,24 @@
 
 
 
-.contact-section .form-row {
+.contact-section-body .form-row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2.5em;
 }
 
-.contact-section .form-group label {
+.contact-section-body .form-group label {
     margin-bottom: .9em;
     
 }
 
 
-.contact-section .form-group label, .contact-section .form-group input {
+.contact-section-body .form-group label, .contact-section-body .form-group input {
     display: block;
     width: 100%;
 } 
 
-.contact-section .flex {
+.contact-section-body .flex {
     gap: 2.2em;
 }
 
@@ -131,7 +134,7 @@ textarea {
     border: 1px solid rgba(255, 255, 255, 0.726);
 }
 
-.contact-section #submit {
+.contact-section-body #submit {
     border: none;
     background: #464646;
     color: white;
